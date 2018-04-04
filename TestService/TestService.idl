@@ -1,0 +1,18 @@
+// TestService.idl : TestService 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(TestService.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(06EB87C7-93D4-4E61-85F6-1042954DE70B),
+	version(1.0),
+]
+library TestServiceLib
+{
+	importlib("stdole2.tlb");
+};
+
